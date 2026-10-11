@@ -2,7 +2,7 @@ var slides=[].slice.call(document.querySelectorAll('.slide')),cur=0;
 var dots=document.getElementById('dots');
 slides.forEach(function(){dots.appendChild(document.createElement('i'))});
 // title letters
-var t=document.getElementById('title'),txt='Happy Birthday [Name]!';
+var t=document.getElementById('title'),txt='Happy Birthday Cyndiiii!';
 function buildTitle(){t.innerHTML='';txt.split('').forEach(function(c,i){var s=document.createElement('span');s.className='ch';s.style.setProperty('--i',i);s.setAttribute('aria-hidden','true');s.innerHTML=c===' '?'&nbsp;':c;t.appendChild(s)})}
 buildTitle();
 // floating emojis
