@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="cv"></canvas>
+<audio id="au" preload="auto"></audio>
+<button class="music" id="music" type="button" aria-label="Toggle music" hidden>🎵</button>
+<div class="stage">
+  <section class="slide on">
+    <div class="big" aria-hidden="true">🎂</div>
+    <h1 id="title" aria-label="Happy Birthday [Name]!"></h1>
+    <p>In my free time, i made this. Ready?</p>
+    <button class="btn" data-next type="button">Let's go!!!!!</button>
+  </section>
+  <section class="slide">
+    <div class="card"><h2>[Welcome to the 21 Club!]</h2><p>It might feels so weird, but turning 21 is the road that will leads you to greater life, newer experience that you never had thought before, and also there will be new things for you to be remembered until the old days, and i just wanna say welcome Cyndii!!!!</p></div>
+    <button class="btn" data-next type="button">Next</button>
+  </section>
+  <section class="slide">
+    <div class="card"><h2>[What's the wish yaa??? ]</h2><p>I really wish all the good things come to you, ah not the good things but the GREAT things, i believe you will make everyone proud even you dont need to because who cares, but i know that you will complete every journey you have planned, every dream you have been imagined, and every road that you already directed, fast or slow, hard or smooth but it's YOU so you will</p></div>
+    <button class="btn" data-next type="button">Next</button>
+  </section>
+  <section class="slide">
+    <div class="card"><h2>[Okay i promise one more]</h2><p>In your new age, i really want you to love the life you have, enjoy everysingle matcha in town, eat every good food in the city, travel arround with your whole damn heart, hundreds hours of talking with me, being kind to everyone like you used to, and i know that you will having a good and grateful life, you are the boss here, no more overthinking no more too care about what people thought, just live and fuck it up HEHEHEHEHEHE</p></div>
+    <button class="btn" data-next type="button">One more thing…</button>
+  </section>
+  <section class="slide">
+    <h2>Sooooo here are little things from me</h2>
+    <button class="gift" id="gift" type="button" aria-label="Open the gift"><span class="box"></span><span class="lid"></span></button>
+    <p>Tap to open</p>
+  </section>
+  <section class="slide">
+    <h2>Happy birthday! 🎉</h2>
+    <div class="reward ticket"><div class="stub" aria-hidden="true">🎬</div><div class="main"><b>1 Free Cinema Ticket</b><span>Admit one. Pick the movie, I'll pick the snacks.</span></div></div>
+    <div class="reward matcha"><div class="cupwrap"><div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>🍵</div><div class="main"><b>1 Free Matcha</b><span>Redeem anytime. Just say "matcha time!"</span></div></div>
+    <button class="btn" id="again" type="button" style="animation:none;margin-top:.5rem">Replay ↺</button>
+  </section>
+</div>
+<div class="dots" id="dots" aria-hidden="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
